@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Student Registration Form</h3>
+    <table align="center" cellpadding = "10" >
+            <td>FIRST NAME</td>
+            <td><input type="text" name="First_name"></td>
+        </tr>
+        <tr>
+            <td>LAST NAME</td>
+            <td><input type="text" name="Last_name"></td>
+        </tr>
+        <tr>
+            <td>DATE OF BIRTH</td>
+            <td>
+                <input type="date" name="DateOfBirth" id="DOB">
+              <!--<select name="day" id="day">
+                    <option value="-1">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>                   
+                </select>
+                <select name="Birthday_Month" id="Birthday_Month">
+                    <option value="-1">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="Jully">Jully</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select name="Birthday_Year" id="Birthday_Year">
+                    <option value="-1">Year</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                </select>-->
+            </td>
+        </tr>
+        <tr>
+            <td>GMAIL</td>
+             <td><input type="text" name="Gmail_Adress"></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><input type="text" name="Adress"></td>
+        </tr>
+        <tr>
+            <td>GENDER</td>
+            <td>Male<input type="radio" name="Gender" value="male"> Female<input type="radio" name="Gender" value="female"></td>
+        </tr>
+        <tr>
+            <td>PHONE NUMBER</td>
+            <td><input type="number" name="number" placeholder="Enter your number"></td>
+        </tr>
+         <tr>
+            <td>HOBBIES</td>
+            <td>
+                Singing <input type="checkbox">
+                Dancing <input type="checkbox">
+                Treking <input type="checkbox">
+                Reading <input type="checkbox">
+                Others <input type="text" maxlength="30">
+            </td>
+            
+         </tr>
+         <tr>
+            <td>QUALIFICATION </td>
+            <td>
+                <table style="border: 1px solid;">
+                    <tr>
+                         <td align="center"><b>S1.No</b></td>
+                         <td align="center"><b>Examination</b></td>
+                         <td align="center"><b>Board</b></td>
+                         <td align="center"><b>Percentage</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text" name="Exam_Board" maxlength="10"></td>
+                        <td><input type="number" name = "Passing_year"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text" name="Exam_Board" maxlength="10"></td>
+                        <td><input type="number" name = "Passing_year"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Diploma</td>
+                        <td><input type="text" name="Exam_Board" maxlength="10"></td>
+                        <td><input type="number" name = "Passing_year"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Graduate</td>
+                        <td><input type="text" name="Exam_Board" maxlength="10"></td>
+                        <td><input type="number" name = "Passing_year"></td>
+                    </tr>
+                </table>
+            </td>
+         </tr>
+         <tr>
+            <td>COURSES <br/>APPLIED FOR</td>
+            <td> 
+                    <input type="radio" name="B.E" value="BE_course">B.E
+                    <input type="radio" name="B.Com" value="B.com_course">B.COM
+                    <input type="radio" name="B.Sc" value="B.Sc_course">B.Sc
+                    <input type="radio" name="B.CA" value="BE_course">B.CA
+            </td>
+            
+         </tr>
+         <tr>
+            <td><button>Submit</button></td>
+         </tr>
+    </table>
+</body>
+</html>
